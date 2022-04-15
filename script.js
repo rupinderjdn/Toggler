@@ -4,7 +4,7 @@ const good = document.querySelector("#good")
 const cheap = document.querySelector("#cheap")
 const fast = document.querySelector("#fast")
 
-toggles.forEach((toggle)=>toggle.addEventListener("cahnge",(e)=>transitionFunc(e.target)))
+toggles.forEach((toggle)=>toggle.addEventListener("change",(e)=>transitionFunc(e.target)))
 function transitionFunc(theClickedOne){
 
     if(good.checked && cheap.checked && fast.checked){
